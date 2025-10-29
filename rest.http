@@ -1,0 +1,45 @@
+### Get API Information
+GET http://localhost:3000/
+
+### Read Counter
+GET http://localhost:3000/counter-read
+
+### Increase Counter
+GET http://localhost:3000/counter-increase
+
+### Increase Counter (multiple times)
+GET http://localhost:3000/counter-increase
+###
+GET http://localhost:3000/counter-increase
+###
+GET http://localhost:3000/counter-increase
+
+### Read Counter After Increases
+GET http://localhost:3000/counter-read
+
+### Reset Counter
+GET http://localhost:3000/counter-reset
+
+### Read Counter After Reset
+GET http://localhost:3000/counter-read
+
+### Test Sequence
+# 1. Reset
+GET http://localhost:3000/counter-reset
+###
+# 2. Read (should be 0)
+GET http://localhost:3000/counter-read
+###
+# 3. Increase 5 times
+GET http://localhost:3000/counter-increase
+###
+GET http://localhost:3000/counter-increase
+###
+GET http://localhost:3000/counter-increase
+###
+GET http://localhost:3000/counter-increase
+###
+GET http://localhost:3000/counter-increase
+###
+# 4. Read (should be 5)
+GET http://localhost:3000/counter-read

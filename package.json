@@ -1,0 +1,24 @@
+{
+  "name": "tally-counter",
+  "version": "1.0.0",
+  "description": "Tally Counter API",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "docs": "npx jsdoc -c jsdoc.json",
+    "test": "mocha test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "jsdoc": "^4.0.5",
+    "mocha": "^10.2.0",
+    "supertest": "^7.1.4"
+  }
+}
