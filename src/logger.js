@@ -4,6 +4,9 @@
  * @requires winston
  * @requires path
  * @requires fs
+ * @author Nformi Kingsly Nofu
+ * @copyright 2024 Nformi Kingsly Nofu
+ * @license MIT
  */
 
 const { createLogger, transports, format } = require('winston');

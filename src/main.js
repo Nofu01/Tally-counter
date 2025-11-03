@@ -1,5 +1,8 @@
 /**
  * @fileoverview Main application file - Express server setup
+ * @author Nformi Kingsly Nofu
+ * @copyright 2024 Nformi Kingsly Nofu
+ * @license MIT
  * @module main
  * @requires express
  * @requires ./routes

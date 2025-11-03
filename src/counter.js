@@ -1,7 +1,12 @@
+
+
 /**
  * @fileoverview Counter module for managing tally count state
  * @module counter
  * @requires ./logger
+ * @license MIT
+ * @author Nformi Kingsly Nofu
+ * @copyright 2024 Nformi Kingsly Nofu
  */
 
 const logger = require('./logger');

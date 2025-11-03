@@ -1,5 +1,8 @@
 /**
  * @fileoverview Express routes for the Tally Counter API
+ * @author Nformi Kingsly Nofu
+ * @copyright 2024 Nformi Kingsly Nofu
+ * @license MIT
  * @module routes
  * @requires express
  * @requires ./counter
